@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 public class Fibonacci {
-
+    //Atributos
     private List<Integer> fibonacciSeries;
 
     //Constructor
@@ -10,7 +10,8 @@ public class Fibonacci {
         fibonacciSeries.add(1);
         fibonacciSeries.add(1);
     }
-
+    //Metodos
+    //Obtener numero Fibonacci
     public int getFibonacciNumber(int position) {
         if (position < 0) {
             throw new IllegalArgumentException("La posición debe ser mayor o igual a cero");
@@ -27,7 +28,7 @@ public class Fibonacci {
 
         return fibonacciSeries.get(position);
     }
-
+    // Obtener posicion en la serie de Fibonacci
     public int getPosition(int number) {
         if (number < 1) {
             throw new IllegalArgumentException("El numero debe ser mayor o igual a uno");

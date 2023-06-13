@@ -4,6 +4,7 @@ public class Fibonacci {
 
     private List<Integer> fibonacciSeries;
 
+    //Constructor
     public Fibonacci() {
         fibonacciSeries = new ArrayList<>();
         fibonacciSeries.add(1);
